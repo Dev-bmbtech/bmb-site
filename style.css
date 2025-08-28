@@ -1,0 +1,166 @@
+html {
+        min-height: 270vh
+}
+
+body {
+        color: var(---text);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 14px;
+        min-height: 100vh;
+        padding: 3rem;
+        background-color: var(---dark);
+        background-image: linear-gradient(to left, var(---dark), #333);
+        justify-content: space-between;
+        line-height: 1.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+        font-weight: bold;
+        padding: 4rem;
+}
+
+:root {
+        ---text: white;
+        ---visite: #BAB4E1;
+        ---hover: #645880;
+        ---dark: black;
+}
+
+
+
+a {
+        color: var(---text);
+        text-decoration: none;
+}
+
+.bord {
+        border: 1px solid var(---text);
+        border-radius: 20px
+}
+
+#form {
+        font-family: 'Courier New', Courier;
+}
+
+th {
+        font-weight: bold;
+}
+
+.tab {
+        width: 100%;
+        padding: 3rem;
+        border-color: var(---text);
+        background-image: linear-gradient(to left, #222, #111);
+        font-family: 'Courier New', Courier, monospace;
+        border-radius: 50px;
+}
+
+.mono {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 13px;
+}
+
+.ths {
+        background-color: var(---dark);
+}
+
+.img {
+        border: 1px solid var(---text);
+        background-color: var(---dark);
+        align-items: center;
+        width: 40%;
+}
+
+.img:hover {
+        background-color: #333;
+        transition-duration: 1s;
+        transition-delay: 0s;
+        transform: rotate(360deg);
+}
+
+.img2:hover {
+        transition-duration: 1s;
+        transition-delay: 0s;
+        /*ransition: all 2s ease 0s;*/
+        transform: rotate(450deg);
+}
+
+.img3:hover {
+        transition-duration: 2.5s;
+        transition-delay: 1s;
+        /*ransition: all 2s ease 0s;*/
+        transform: rotate(360deg);
+}
+
+.img:clicked {
+        background-color: #42445A;
+}
+
+table td {
+        text-align: center;
+}
+
+
+/* Learn Animations and set up*/
+
+
+/* .animate{
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 3s;
+  animation-iteration-count:5;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation: 3s ease-in-out 0s 5 normal forwards slide;
+}
+@keyframes slide{
+  0%{
+    transform: translateX(0);
+    
+  }
+  33%{
+    transform: translateX(250px) rotate(180deg);
+  }
+  66%{
+    transform: translateX(-250px) rotate(-180deg);
+  }
+  100%{
+    transform: translateX(0);
+    background-color: sienna;
+  }
+} */
+
+.nav {
+        /* background-image: linear-gradient(to right, var(---dark), #222); */
+        margin-top: -3.5rem;
+        margin-left: -3.5rem;
+     /*    margin-right: -3.8rem; */
+        margin-right: none;
+        width: 660px;
+        padding-left: 1rem;
+        padding-right: 3rem;
+        padding-bottom: 0.3rem;
+        padding-top: 0.3rem;
+        border-bottom: 3px solid var(---text);
+        border-top: 3px solid var(---text);
+        border-radius: 0px;
+        background-color: var(---dark);
+        justify-content: space-between;
+        font-size: 20px;
+        display: flex;
+        flex-flow: row nowrap;
+        transform-origin: top center;
+        font-family: 'Times New Roman', Times, serif;
+        position: fixed;
+}
+
+mark {
+        background-color: transparent;
+        color: #B0B0B0;
+}
